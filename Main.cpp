@@ -14,7 +14,7 @@ int main() {
     cout << "Welcome to the best Morse/English translator!" << endl
          << "Please use '-m' to convert English to Morse Code or '-t' to convert from Morse Code to English" << endl
          << "Provide files in the following format:  '-m input.txt output.txt'" << endl;
-    
+            //This prompts the user to input the conversation type and direction.
     cin >> convoInput;
     cin >> userInput;
     cin >> userOutput;
